@@ -1,0 +1,63 @@
+{
+    "language" : "zh-hans",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-lunr",
+		"-sharing",
+        "-search",
+        "search-pro",
+		"sidebar-style",
+		"code",
+		"splitter",
+		"expandable-chapters",
+		"anchor-navigation-ex",
+		"-highlight",
+		"prism", 
+		"-popup",
+		"alerts",
+        "lightbox",
+        "hide-element",
+        "favicon",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "prism": {
+    "css": [
+      "prismjs/themes/prism-tomorrow.css"
+    ]
+  },
+        "tbfed-pagefooter": {
+            "copyright":"-N0zoM1z0-",
+            "modify_label": "Last Modified Time: ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }},
+        
+        "lightbox": {
+        "includeJQuery": false,
+        "sameUuid": true,
+        "options": {
+            "resizeDuration": 500,
+            "wrapAround": false
+        }
+    },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+
+		 "sidebar-style": {
+            "title": "4_Sec",
+            "author": "N0zoM1z0"
+        }
+    }
+}
+
